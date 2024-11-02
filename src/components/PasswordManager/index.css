@@ -1,0 +1,224 @@
+* {
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+.home-container {
+  background-color: #9ba9eb;
+  min-height: 100vh;
+  padding: 20px 15px 20px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.immediate-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-image-container {
+  margin-bottom: 20px;
+  align-self: start;
+}
+.logo {
+  width: 30%;
+}
+.user-input-container {
+  background-color: #5763a5;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.user-input-image-sm {
+  width: 85%;
+}
+.user-input-image-lg {
+  display: none;
+}
+.form {
+  background-color: #454f84;
+  padding: 10px;
+  border-radius: 8px;
+}
+.form-heading {
+  color: #f8fafc;
+  font-size: 20px;
+}
+.input-image {
+  width: 35px;
+  height: 35px;
+  padding-right: 10px;
+  margin: auto;
+}
+.website-container {
+  background-color: #f8fafc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+.input-enter-container {
+  width: 80%;
+  padding: 15px;
+  font-size: 15px;
+  border-width: 0px;
+  outline: none;
+  border-left: 2px solid #b6c3ca;
+  font-weight: 500;
+  color: #64748b;
+}
+.add-btn {
+  color: #ffffff;
+  background-color: #0b69ff;
+  padding: 8px;
+  width: 86px;
+  font-size: 15px;
+  border-width: 0px;
+  outline: none;
+  border-radius: 5px;
+}
+.btn-container {
+  text-align: right;
+  margin-top: 20px;
+}
+.your-password-container {
+  background-color: #5763a5;
+  min-height: 70vh;
+  width: 100%;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.your-password-text {
+  color: #f8fafc;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 10px;
+  align-self: center;
+}
+.count-text {
+  color: #ffffff;
+  align-self: center;
+  border-radius: 20px;
+  border: 2px solid #b6c3ca;
+  padding: 4px 12px 4px 12px;
+  margin-right: 10px;
+}
+.heading-count-container {
+  display: flex;
+  align-items: flex-start;
+}
+.searchicon-bar-container {
+  display: flex;
+  background-color: #f8fafc;
+  border-radius: 5px;
+  width: 100%;
+}
+.search-container {
+  align-self: center;
+}
+.search-img {
+  width: 28px;
+  margin: 4px;
+  margin-right: 7px;
+}
+.search-bar {
+  border-width: 0px;
+   border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  outline: none;
+  width: 90%;
+  font-size: 15px;
+  border-left: 3px solid #b6c3ca;
+  padding: 8px;
+  color: #94a3b8;
+  font-weight: bold;
+}
+.count-search-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #9ba9eb;
+  margin-bottom: 14px;
+}
+.checkbox-img {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+}
+.show-text {
+  color: #f8fafc;
+  font-size: 15px;
+  align-self: center;
+}
+.input-checkbox-container {
+  display: flex;
+}
+.showpasword-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+}
+.no-password-image {
+  width: 100%;
+}
+.password-text {
+  color: #f8fafc;
+  font-size: 20px;
+  text-align: center;
+}
+.no-password-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.nopass-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .user-input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 25px;
+  }
+  .immediate-container {
+    width: 90%;
+  }
+  .input-container {
+    order: -1;
+    width: 60%;
+  }
+  .user-input-image-container {
+    width: 35%;
+  }
+  .user-input-image-sm {
+    display: none;
+  }
+  .user-input-image-lg {
+    display: inline;
+    width: 100%;
+  }
+  .form {
+    padding: 25px;
+  }
+  .your-password-text {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .no-password-image {
+    width: 50%;
+  }
+  .no-password-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+}
